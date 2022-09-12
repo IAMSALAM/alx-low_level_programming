@@ -6,6 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
+int main(void)
 {
 	int n;
 
@@ -17,5 +18,5 @@
 		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
-	r(eturn (0);
+	return (0);
 }
